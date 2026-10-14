@@ -10,8 +10,10 @@ pkgs.mkShellNoCC {
     lolcat
   ];
 
+  exampleEnv = "test";
+
   shellHook = ''
-    echo path
+    echo hello
   '';
 }
 
